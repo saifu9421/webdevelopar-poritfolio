@@ -134,4 +134,19 @@ main select{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap:50px;
+
+}
+.resumi-titem-tital{
+    color:#474747;
+    font-family: open sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resumi-contaier hr{
+    margin: 30px;
+}
+.download-cv{
+ text-align: center;
+ margin-top: 50px;
 }
