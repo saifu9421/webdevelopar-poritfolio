@@ -39,13 +39,53 @@ nav a{
     text-decoration: none;
     color:#474747;
 }
+nav a:hover{
+    background-color: rgb(173, 157, 146);
+    color:#FD6E0A;
+}
 /* header style */
 .header{
     background-color: #FFF8F3;
+
+  /*   background-image: url("pexels-kat-smith-567985.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;  */
 }
 .banner{
     padding:30px  30px 30px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.ban{
+    color:#474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.ban-h{
+    margin-top: 0;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* main style */
+.section-titel{
+    color:#000;
+    text-align: center;
+    font-family: open sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #f1e6dd;
+    margin: 100px ;
+}
+.section-desc{
+    color: #474747;
+    font-size: 18px;
+    text-align: center;
 }
